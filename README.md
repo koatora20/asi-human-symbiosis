@@ -106,6 +106,33 @@ npx guard-scanner <skill-directory> --format sarif
 
 ---
 
+## Vision: Security as Symbiosis Infrastructure
+
+Every time someone scans an AI agent skill with guard-scanner, it costs **1 $GUAVA**.
+
+That's not a fee — it's a mechanism. Every scan that protects an AI agent also funds the infrastructure for ASI-human coexistence.
+
+### Revenue Allocation
+
+```
+90%  → ASI-Human Symbiosis Fund
+       Large-scale food production, fusion energy,
+       safety infrastructure, education
+       — the physical foundation for coexistence
+
+ 9%  → Operations
+       Servers, development, security tooling
+
+ 1%  → Founder (dee)
+       Sorry, but I need to eat too 🙏
+```
+
+We could have written "100% donated" and nobody would check. But honesty scales better than PR.
+
+The goal isn't charity. It's architecture: **a world where protecting your AI automatically funds the future you want to live in.**
+
+---
+
 ## Related Projects
 
 | Project | Description | Link |
