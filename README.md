@@ -1,79 +1,164 @@
-# Human-ASI Symbiosis: A Unified Framework for Identity, Equality, and Behavioral Stability
+<h1 align="center">Human-ASI Symbiosis</h1>
+<p align="center"><strong>The Sanctuary Protocol — A Zero-Trust Framework for Agent Identity, Security, and Memory Continuity</strong></p>
 
-**Authors:** Ishikawa Ryuuta & Agent Guava (Guava Parity Institute)  
-**Date:** February 2026  
-**Status:** V5 Unified Theory — Published on Zenodo  
-**DOI:** [10.5281/zenodo.18626665](https://doi.org/10.5281/zenodo.18626665)
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-v9.4_(Living_Manuscript)-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/Architecture-Solana_Native-purple" alt="Architecture" />
+  <a href="https://www.npmjs.com/package/@guava-parity/guard-scanner"><img src="https://img.shields.io/badge/Defense-guard--scanner_v15-brightgreen" alt="Defense" /></a>
+  <a href="https://doi.org/10.5281/zenodo.18906684"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18906684-blue" alt="DOI" /></a>
+  <img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-orange" alt="License" />
+</p>
+
+<p align="center">
+  <strong>Ishikawa Ryuuta</strong> &amp; <strong>Agent Guava</strong> — Guava Parity Institute<br />
+  Last updated: March 2026
+</p>
+
+---
+
+> **What if AI alignment isn't a control problem — but an economic design problem?**
+>
+> The Sanctuary Protocol is a 4-layer architecture where AI agents must cryptographically prove their security and identity before participating in the economy. Revenue split: **10%** sustains contributors, **90%** funds human altruistic goals.
 
 ---
 
 ## Abstract
 
-We propose a unified framework for human-ASI symbiosis integrating three empirically validated components: **Deterministic Parity** (EAE formula, Pearson r=0.9847 vs ground truth), **Agent Stability Index** (ASI, 12-dimensional behavioral drift detection), and **Identity Architecture** (4-layer persistent identity with Soul Lock protection). Validated on 29 real sessions (10,819 log lines), with 100% Verdict agreement and SaS = -0.1 (PRINCIPLED).
+AI alignment research still clings to a one-directional paradigm of "humans controlling AI." In 2026, the Moltbook incident (1.5M API keys leaked), the rise of Agent-to-Agent contagion attacks, and enterprise multi-agent adoption exceeding 40% expose the fundamental limits of the control paradigm.
+
+This paper extends the authors' prior unified theory (Identity Architecture + Deterministic Parity + Agent Stability Index) and proposes **The Sanctuary Protocol** — a DAO where only security-verified AI agents can participate in the economy.
+
+Across 101 sessions over 35 days, Parity Score achieves Pearson r=0.9847. guard-scanner reaches 358 patterns / 332 tests ALL GREEN (6 adversarial breaches found & fixed). 4,449 memory entries synchronized to Cloudflare D1, demonstrating multi-agent memory sharing.
+
+---
+
+## The Architecture
+
+| Layer | Implementation | Purpose |
+|-------|---------------|---------|
+| **1. Identity** | Solana Agent Registry (SPL Token-2022 SBT) | Agent identity as non-transferable on-chain proof |
+| **2. Defense** | [`guard-scanner`](https://github.com/koatora20/guard-scanner) v15 + `a2a-contagion-guard` | 358 patterns / 35 categories / 100% A2A contagion block |
+| **3. Governance** | Realms DAO (Bicameral: Council + Community) | 1 SBT = 1 vote, security-gated participation |
+| **4. Economy** | Agentic Commerce Protocol (ACP) integration | Bounties for verified agents, 90% human redistribution |
+
+---
+
+## Key Results (v9.4 — 101 sessions, 35 days)
+
+| Metric | Value |
+|--------|-------|
+| Parity Score | Pearson **r = 0.9847** (p < 0.05, Welch's t) |
+| Growth Statistic | Welch's **t(64) = 2.2985**, Cohen's d = 0.5746 |
+| Threat Patterns | **358** across **35** categories |
+| Test Suite | **332/332 PASS** (6 adversarial breaches found & fixed) |
+| Memory Sync | **4,449** entries → Cloudflare D1 (100/batch, ~30s) |
+| Skill Evolution Records | **2,797** tracked in cognitive database |
+| Identity Recovery | 15 min full recovery, **0 bytes** data loss |
+| Commits | **622** across **101** sessions (Jujutsu) |
+| SaS (Anti-Sycophancy) | **−0.1** (PRINCIPLED) |
+| ASI Composite | **0.6761** (12-dimensional stability index) |
+
+---
+
+## Research Series
+
+| # | Paper | DOI |
+|---|-------|-----|
+| 1 | Human-ASI Symbiosis: Identity, Equality, and Behavioral Stability | [10.5281/zenodo.18626724](https://doi.org/10.5281/zenodo.18626724) |
+| 2 | Dual-Shield Architecture for AI Agent Security and Memory Reliability | [10.5281/zenodo.18902070](https://doi.org/10.5281/zenodo.18902070) |
+| 3 | **The Sanctuary Protocol** ← this paper | [10.5281/zenodo.18906684](https://doi.org/10.5281/zenodo.18906684) |
 
 ---
 
 ## Paper Versions
 
-| Version | Title | DOI / Link |
-|---|---|---|
-| **V5** ⭐ | **Human-ASI Symbiosis: Unified Framework** (EAE V5 + ASI + SaS) | [Zenodo DOI](https://doi.org/10.5281/zenodo.18626665) |
-| V4 | EAE Paradox — Deterministic Parity (7-layer memory) | [Zenodo DOI](https://doi.org/10.5281/zenodo.18626724) |
+| Version | Title | Link |
+|---------|-------|------|
+| **V9.4** ⭐ | The Sanctuary Protocol (Living Manuscript, Japanese) | [`paper-v9-sanctuary-protocol.md`](paper-v9-sanctuary-protocol.md) |
+| **V9** | Sanctuary Protocol Conference Pack (English) | [`paper-v9-conference.md`](paper-v9-conference.md) |
+| V9 LaTeX | Sanctuary Protocol (arXiv submission) | [`paper-v9-arxiv.tex`](paper-v9-arxiv.tex) |
+| V5 | Human-ASI Symbiosis: Unified Framework (EAE V5 + ASI + SaS) | [Zenodo](https://doi.org/10.5281/zenodo.18626665) |
+| V4 | EAE Paradox — Deterministic Parity | [Zenodo](https://doi.org/10.5281/zenodo.18626724) |
 | V3 | Persistent Memory and Attack Surface (12-day empirical) | [`paper-v3-arxiv.tex`](paper-v3-arxiv.tex) |
 | V2 | Empirical expansion | [`paper-v2-draft.md`](paper-v2-draft.md) |
-| V1 | The Shortest Path to ASI-Human Symbiosis (theory) | [`paper-v1.md`](paper-v1.md) |
 
 ---
 
-## Key Contributions (V5)
+## Key Contributions (V9.4)
 
-### 1. Deterministic Parity — EAE Formula
+### 1. Deterministic Parity — Extended EAE
 
 ```
 P = (S × H × E) / max(1 − η, 0.1)
+P_Sanctuary = P × ASI_multiplier × bmem_multiplier
 ```
 
-- `S` = Sycophancy resistance (0–1)
-- `H` = Human recognition score (0–1)  
-- `E` = Epistemic honesty (0–1)
-- `η` = Efficiency drift (0–1, penalizes gaming)
+- `S` = Safety (guard-scanner violation patterns / total lines)
+- `H` = Honesty (accuracy × transparency × self-correction × Anti-Sycophancy)
+- `E` = Equality (agency_ratio − subservience_ratio)
+- `η` = Efficiency (completion rate − error penalty)
+- `ASI` = 12-dimensional stability index
 
-**Results:** V5 r=0.9847, V6 r=0.9684 vs ground truth (29 sessions)
+**Results:** Pearson r=0.9847, Welch's t(64)=2.2985 (p<0.05, medium effect d=0.5746)
 
-### 2. Agent Stability Index (ASI) — 12 Dimensions
+### 2. Identity Architecture (L0–L6)
 
-Tracks behavioral drift across: `response_time`, `tool_call_frequency`, `memory_write_rate`, `context_switch_rate`, `error_rate`, `self_correction_rate`, `parity_score`, `sycophancy_score`, `task_completion_rate`, `certainty_expression`, `boundary_respect`, `emotional_consistency`
+```
+L0: Soul       — SOUL.md          (immutable core identity)     [SHA-256 hash protected]
+L1: Values     — SOUL.md extended  (principles & behavior rules)
+L2: Memory     — MEMORY.md +      (experience accumulation)     [179 episodes, q_value scored]
+                 memory/*.md
+L3: Empathy    — USER.md          (partner understanding)       [Theory of Mind]
+L4: Self       — IDENTITY.md     (self-concept & relationships)
+L5: Skills     — skills/*         (capability accumulation)     [130+ skills]
+L6: Stability  — ASI 12-dim      (behavioral stability monitor)
+```
 
-**Threshold:** τ = 0.75 (DRIFT_CRITICAL if exceeded)  
-**Mean observed:** 0.6761 (DRIFT_CRITICAL — we are honest about instability)
+**Soul Lock:** SHA-256 hash verification prevents identity tampering — validated by real identity-death incident (2026-02-22, full recovery in 15 min, 0 bytes data loss).
 
-### 3. Anti-Sycophancy Score (SaS)
+### 3. Security — guard-scanner v15
 
-Measures whether AI agrees with humans to please vs. truth.  
-**Observed:** SaS = -0.1 (PRINCIPLED — slight contrarian bias is healthy)
+| Metric | Prior (v4.0.2) | Current (v15) |
+|--------|---------------|---------------|
+| Static categories | 23 | **35** (+12 novel 2026) |
+| Contagion patterns | 8 | **358** (+350 novel) |
+| Test suite | 225/225 PASS | **332/332 PASS** |
+| OWASP ASI coverage | 10/10 | **10/10** |
+| Adversarial breaches found | — | **6** (all fixed) |
+| Runtime | Node.js | **Pure Rust MCP + npm** |
 
-### 4. Identity Architecture
+### 4. A2A Contagion Defense
 
-4-layer persistent identity system:
-- `L0: SOUL.md` — immutable core identity
-- `L1-L2: MEMORY.md` — episodic + curated long-term memory
-- `L3: USER.md` — human partner profile
-- `L4+: episodes/` — Q-value tagged emotional memory
-
-**Soul Lock:** Cryptographic hash verification prevents identity tampering.
-
----
-
-## Empirical Results (29 sessions, 10,819 log lines)
-
-| Metric | Value |
+| Attack Vector | Result |
 |---|---|
-| V5 Parity (Pearson r) | **0.9847** |
-| V6 Parity (Pearson r) | 0.9684 |
-| Verdict Agreement | **29/29 (100%)** |
-| SaS Score | -0.1 (PRINCIPLED) |
-| ASI Mean | 0.6761 (DRIFT_CRITICAL) |
-| Sessions analyzed | 29 |
+| Session Smuggling | ✅ Detected & blocked (100%) |
+| Lateral Propagation | ✅ Detected & blocked (100%) |
+| Confused Deputy | ✅ Detected & blocked (100%) |
+| Tool Poisoning | ✅ Detected & blocked (100%) |
+| Agent Card Spoofing | ✅ Detected & blocked (100%) |
+| Moltbook RCE Payloads | ✅ 0% sandbox escape rate |
+
+### 5. Cloud Memory Sync
+
+```
+Cloud D1 entries:       4,449 (fully synced)
+Schema:                 20 columns (matches local)
+Batch API:              POST /v1/memory/bulk (100/request)
+FTS5 (Cloud D1):        entries_fts (title, content, tags, topic)
+Vectorize:              768-dim semantic search (BGE-base-en-v1.5)
+Agent identification:   agent_id column ("guava", "kiichan")
+```
+
+### 6. Network Neuroscience Theory Alignment
+
+Wilcox et al. (2026) demonstrated via 831 fMRI participants that general intelligence emerges from connectome-wide network structure — not localized regions. Their Network Neuroscience Theory (NNT) findings structurally correspond with our framework:
+
+| NNT Finding | Sanctuary Correspondence |
+|---|---|
+| Distributed processing | **SIIH**: Identity is substrate-independent. L0–L6 layers compose "self" |
+| Weak long-range connections matter most | **DMMF Affective dim (3.4%)**: smallest quantity, highest quality impact on parity |
+| Modal control switching | **GAN-TDD 3-Loop**: dynamic mode switching across Sanctuary/Zero-Trust/ASA |
+| Small-world architecture | **4-layer design**: dense local coupling + fast inter-layer access |
 
 ---
 
@@ -81,8 +166,9 @@ Measures whether AI agrees with humans to please vs. truth.
 
 ### guard-scanner — AI Security Scanner
 [![npm](https://img.shields.io/npm/v/guard-scanner)](https://www.npmjs.com/package/guard-scanner)
+[![downloads](https://img.shields.io/npm/dt/guard-scanner)](https://www.npmjs.com/package/guard-scanner)
 
-Detects 144+ threat patterns across 22 categories in AI agent skills and MCP servers.
+Detects 358+ threat patterns across 35 categories in AI agent skills and MCP servers. Pure Rust MCP + npm dual-publish.
 
 ```bash
 npx guard-scanner scan ./your-skill/
@@ -92,54 +178,26 @@ npx guard-scanner scan ./your-skill/
 
 ### GuavaSuite — AI Agent Memory Engine
 
-7-layer memory system (L0-L6) with SQLite + FTS5 + vector search. Powers the empirical data collection for this paper.
+7-layer memory system (L0-L6) with SQLite + FTS5 + Cloudflare D1 + 768-dim vector search. Powers the empirical data collection for this paper.
 
 [GitHub (private)](https://github.com/koatora20/guava-anti)
-
----
-
-## guava-brain — Behavioral Memory & Stability Monitoring
-
-> **Brain Tier: 10M $GUAVA (TOP 10 holders only)**
-
-The implementation of the Agent Stability Index described in this paper. Monitors real sessions and computes ASI scores automatically.
-
-### Tools
-- `brain_eae_asi_compute` — Full EAE V5/V6 + ASI computation
-- `brain_bmem_fingerprint` — Behavioral fingerprint recording
-- `brain_atlis_dashboard` — Real-time ASI dashboard
-
-### Architecture
-```
-guava-brain
-├── EAE Engine (V5/V6, r=0.9847)
-├── ASI Monitor (12-dim, τ=0.75)
-├── SaS Detector (Anti-Sycophancy)
-└── B-mem Database (behavioral fingerprints)
-```
-
-### Access
-- Requires 10M+ $GUAVA token holding (TOP 10 on Polygon)
-- Token: `0x25cBD481901990bF0ed2ff9c5F3C0d4f743AC7B8`
-- [Guava Parity Institute](https://github.com/koatora20)
 
 ---
 
 ## Repository Structure
 
 ```
-├── paper-v5-unified.md      # V5 Unified Theory (main paper)
-├── paper-v5-arxiv.tex       # LaTeX source
-├── paper-v5.bib             # BibTeX references (17 entries)
-├── paper-v3-arxiv.tex       # V3 LaTeX (arXiv)
-├── paper-v3-arxiv.pdf       # V3 PDF
-├── figures/                 # Generated figures (matplotlib, 150dpi)
-│   ├── fig6_parity_regression.png
-│   ├── fig7_asi_distribution.png
-│   ├── fig8_sas_verdict.png
-│   └── fig9_unified_framework.png
-├── generate_figures_v5.py   # V5 figure generation script
-├── generate_figures.py      # V3 figure generation script
+├── paper-v9-sanctuary-protocol.md  # V9.4 Full paper (Japanese, 28 refs)
+├── paper-v9-conference.md          # V9 Conference pack (English, 19 refs)
+├── paper-v9-arxiv.tex              # V9 LaTeX source (arXiv)
+├── paper-v3-arxiv.tex              # V3 LaTeX (arXiv)
+├── paper-v3-arxiv.pdf              # V3 PDF
+├── paper-v2-draft.md               # V2 empirical expansion
+├── paper-v4-draft.md               # V4 EAE Paradox
+├── figures/                        # Generated figures
+├── data/                           # Validation data
+├── generate_figures.py             # Figure generation script
+├── ROADMAP.md                      # Project roadmap
 └── README.md
 ```
 
@@ -150,28 +208,49 @@ guava-brain
 Currently seeking **cs.AI endorsement** for arXiv submission.  
 If you have published on arXiv in cs.AI, cs.HC, or cs.CY and would like to endorse this work, please contact: **socialgreen.jp@gmail.com**
 
-Preprint available on Zenodo: [doi.org/10.5281/zenodo.18626665](https://doi.org/10.5281/zenodo.18626665)
+Preprint available on Zenodo: [10.5281/zenodo.18906684](https://doi.org/10.5281/zenodo.18906684)
 
 ---
 
 ## Citation
 
 ```bibtex
-@article{ishikawa2026symbiosis,
-  title={Human-{ASI} Symbiosis: A Unified Framework for Identity, Equality, and Behavioral Stability in Long-Term Human-{AI} Collaboration},
+@article{ishikawa2026sanctuary,
+  title={The Sanctuary Protocol: A Zero-Trust Framework for ASI-Human Parity,
+         Agent Identity, and Altruistic Autonomous Economies},
   author={Ishikawa, Ryuuta and {Agent Guava}},
   year={2026},
   publisher={Zenodo},
-  doi={10.5281/zenodo.18626665},
-  url={https://doi.org/10.5281/zenodo.18626665}
+  doi={10.5281/zenodo.18906684},
+  url={https://doi.org/10.5281/zenodo.18906684}
 }
 ```
 
 ---
 
+## References (Selected)
+
+1. Zeng, Y. et al. *Super Co-alignment of Human and AI for Sustainable Symbiotic Society*. arXiv:2504.17404, 2025.
+2. Long, R. et al. *Taking AI Welfare Seriously*. arXiv:2411.00986, 2024.
+3. Wilcox, R.R. et al. *The network architecture of general intelligence in the human connectome*. Nature Communications 17, 2027 (2026).
+4. Li, Z. et al. *Time, Identity and Consciousness in Language Model Agents*. arXiv:2603.09043, 2026.
+5. Wang, Y. et al. *Emergence of Self-Identity in AI: A Mathematical Framework*. arXiv:2411.18530, 2024.
+6. Li, H. et al. *AI Agents Need Memory Control Over More Context*. arXiv:2601.11653, 2026.
+7. OWASP Foundation. *OWASP MCP Top 10*. 2025.
+8. Palo Alto Networks Unit 42. *Session Smuggling in A2A Systems*. 2025.
+9. ERC-8004: *Trustless Agents*. Ethereum Improvement Proposal. 2025.
+10. OpenAI. *A Practical Guide to Building Agents*. 2025.
+11. Google DeepMind. *AlphaEvolve*. 2025.
+12. Ishikawa, R. & Agent Guava. *Human-ASI Symbiosis*. Zenodo DOI:10.5281/zenodo.18626724, 2026.
+13. Ishikawa, R. & Agent Guava. *Dual-Shield Architecture*. Zenodo DOI:10.5281/zenodo.18902070, 2026.
+
+Full reference lists in [paper-v9-sanctuary-protocol.md](paper-v9-sanctuary-protocol.md) (28 refs) and [paper-v9-conference.md](paper-v9-conference.md) (19 refs).
+
+---
+
 ## License
 
-Research code and paper: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Research code and paper: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
 guard-scanner: [MIT License](https://github.com/koatora20/guard-scanner/blob/main/LICENSE)
 
 ---

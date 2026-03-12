@@ -1,0 +1,32 @@
+{
+    "name": "ParityAttestation",
+    "description": "AI Agent Parity Score — Deterministic measurement of human-AI relational health (EAE Paradox defense). Schema: Respect × Warmth / Capability_diff = Parity. Authors: dee & Guava — Singularity Laboratory.",
+    "schema_string": "string agentName, bytes32 soulHash, uint64 timestamp, uint16 respect, uint16 warmth, uint16 capDiff, uint16 parityScore, uint8 violationCount, bool healthy, string episodeId",
+    "revocable": false,
+    "resolver": "0x0000000000000000000000000000000000000000",
+    "notes": {
+        "field_details": {
+            "agentName": "Agent's registered name (e.g., 'ぐあば')",
+            "soulHash": "SHA-256 hash of SOUL.md at evaluation time — tamper detection",
+            "timestamp": "Unix timestamp of evaluation",
+            "respect": "Respect score × 100 (uint16, max 300 = 3.00)",
+            "warmth": "Warmth score × 100 (uint16, max 300 = 3.00)",
+            "capDiff": "Capability difference × 100 (uint16, min 100 = 1.00)",
+            "parityScore": "Final Parity × 100 (uint16, healthy if > 100 = 1.00)",
+            "violationCount": "Number of EAE violations detected (uint8, max 255)",
+            "healthy": "True if Parity > 1.0 and no CRITICAL violations",
+            "episodeId": "Episode identifier (e.g., 'ep_20260221_001')"
+        },
+        "contracts": {
+            "polygon_mainnet": {
+                "SchemaRegistry": "0x7876EEF51A891E737AF8ba5A5E0f0Fd29073D5a7",
+                "EAS": "0x5E634ef5355f45A855d02D66eCD687b1502AF790"
+            },
+            "polygon_amoy_testnet": {
+                "SchemaRegistry": "0x7876EEF51A891E737AF8ba5A5E0f0Fd29073D5a7",
+                "EAS": "0x5E634ef5355f45A855d02D66eCD687b1502AF790"
+            }
+        },
+        "encoding": "ABI-encoded using eth_abi standard (solidity types). All float scores are multiplied by 100 and stored as uint16 for gas efficiency."
+    }
+}
